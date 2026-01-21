@@ -2,10 +2,11 @@ var mysql = require("mysql2");
 var util = require("util");
 
 var conn = mysql.createConnection({
-    host:"localhost",
-    user:"root",
-    password:"root",
-    database:"msd_news"
+    host:"buygfdscm6kcgbgaat5f-mysql.services.clever-cloud.com",
+    user:"um8qugngi6x4ufbu",
+    password:"9NfLEjOtJMMCtLMK2pxH",
+    database:"buygfdscm6kcgbgaat5f",
+    port:"3306"
 });
 
 
