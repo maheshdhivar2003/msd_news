@@ -1,0 +1,211 @@
+<%-include("navbar.ejs")%>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business News - MSD News Portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="business.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        
+        <!-- Breaking News Ticker -->
+        <!-- <div class="breaking-news">
+            <div class="container breaking-news-container">
+                <div class="breaking-label">BUSINESS BREAKING</div>
+                <div class="ticker">
+                    <div class="ticker-content">
+                        <span class="live-badge">LIVE</span>
+                        <strong>Sensex surges 800 points to hit new record high of 75,000</strong> • 
+                        <span>RBI keeps repo rate unchanged at 6.5% for 8th straight time</span> • 
+                        <span>Adani Group to invest $100 billion in green energy over 10 years</span> • 
+                        <span>India's GDP grows at 7.8% in Q4, exceeds expectations</span>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        
+        <!-- Navigation -->
+        
+    </header>
+
+    <!-- Category Header -->
+    <div class="category-header">
+        <div class="container">
+            <h1 class="category-title">Business</h1>
+            <p class="category-description">Latest business news, stock market updates, economic indicators, and financial analysis. Stay informed about markets, companies, and the economy.</p>
+        </div>
+    </div>
+
+    <!-- Market Stats -->
+    <section class="market-stats">
+        <div class="container">
+            <div class="market-stats-header">
+                <h2><i class="fas fa-chart-line"></i> Market Update</h2>
+                <span>As of 3:30 PM IST</span>
+            </div>
+            <div class="indices-grid">
+                <div class="index-card">
+                    <div class="index-name">BSE SENSEX</div>
+                    <div class="index-value">74,869</div>
+                    <div class="index-change positive"><i class="fas fa-arrow-up"></i> +815.21 (1.10%)</div>
+                </div>
+                
+                <div class="index-card">
+                    <div class="index-name">NIFTY 50</div>
+                    <div class="index-value">22,748</div>
+                    <div class="index-change positive"><i class="fas fa-arrow-up"></i> +245.35 (1.09%)</div>
+                </div>
+                
+                <div class="index-card">
+                    <div class="index-name">BANK NIFTY</div>
+                    <div class="index-value">48,932</div>
+                    <div class="index-change positive"><i class="fas fa-arrow-up"></i> +712.50 (1.48%)</div>
+                </div>
+                
+                <div class="index-card">
+                    <div class="index-name">NIFTY IT</div>
+                    <div class="index-value">33,458</div>
+                    <div class="index-change negative"><i class="fas fa-arrow-down"></i> -245.15 (0.73%)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container main-content">
+        <!-- Content Area -->
+        <div class="content-area">
+            <!-- Business Tabs -->
+            <div class="business-tabs">
+                <div class="business-tab active">Markets</div>
+                <div class="business-tab">Economy</div>
+                <div class="business-tab">Companies</div>
+                <div class="business-tab">Personal Finance</div>
+                <div class="business-tab">Startups</div>
+                <div class="business-tab">Commodities</div>
+                <div class="business-tab">Global Markets</div>
+                <div class="business-tab">Auto</div>
+            </div>
+            
+            <!-- Featured Business News -->
+            <section class="featured-news">
+                <div class="featured-headline">
+                    <div class="featured-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Stock Market">
+                    </div>
+                    <div class="featured-overlay">
+                        <div class="featured-category">Markets</div>
+                        <h1 class="featured-title">Sensex hits 75,000 for first time, Nifty crosses 22,750 as markets rally</h1>
+                        <p class="featured-excerpt">Indian stock markets scaled new peaks with Sensex crossing 75,000 and Nifty surpassing 22,750 for the first time, driven by strong foreign inflows and positive economic data.</p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 2 hours ago</span>
+                            <span><i class="far fa-eye"></i> 38.7k views</span>
+                            <span><i class="fas fa-user"></i> Markets Bureau</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Currency Rates -->
+            <section class="currency-rates">
+                <h2><i class="fas fa-money-bill-wave"></i> Currency Rates</h2>
+                <div class="currency-grid">
+                    <div class="currency-card">
+                        <div class="currency-name">USD/INR</div>
+                        <div class="currency-rate">83.45</div>
+                        <div class="index-change negative">-0.12%</div>
+                    </div>
+                    
+                    <div class="currency-card">
+                        <div class="currency-name">EUR/INR</div>
+                        <div class="currency-rate">89.23</div>
+                        <div class="index-change positive">+0.08%</div>
+                    </div>
+                    
+                    <div class="currency-card">
+                        <div class="currency-name">GBP/INR</div>
+                        <div class="currency-rate">104.56</div>
+                        <div class="index-change negative">-0.05%</div>
+                    </div>
+                    
+                    <div class="currency-card">
+                        <div class="currency-name">JPY/INR</div>
+                        <div class="currency-rate">0.53</div>
+                        <div class="index-change positive">+0.15%</div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Latest Business News -->
+            <section class="news-section">
+                <div class="section-title">
+                    <h2>Latest Business News</h2>
+                    <a href="#" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="news-grid">
+                    <!-- News Card 1 -->
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="https://static.toiimg.com/thumb/msid-107515422,width-400,resizemode-4/107515422.jpg" alt="RBI">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-category">Economy</div>
+                            <h3 class="card-title">RBI keeps repo rate unchanged at 6.5% for 8th consecutive time</h3>
+                            <p class="card-excerpt">Reserve Bank of India maintains status quo on key policy rates, citing inflation concerns while maintaining growth forecast at 7% for FY25.</p>
+                            <div class="card-meta">
+                                <span><i class="far fa-clock"></i> 4 hours ago</span>
+                                <span><i class="far fa-eye"></i> 25.3k views</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- News Card 2 -->
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1621761191319-c6fb62004040?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Adani">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-category">Companies</div>
+                            <h3 class="card-title">Adani Group to invest $100 billion in green energy over 10 years</h3>
+                            <p class="card-excerpt">Adani Group announces massive $100 billion investment in green energy projects including solar, wind, and green hydrogen over the next decade.</p>
+                            <div class="card-meta">
+                                <span><i class="far fa-clock"></i> 6 hours ago</span>
+                                <span><i class="far fa-eye"></i> 31.8k views</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- News Card 3 -->
+
+                    <!-- News Card 3 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1170&q=80" alt="Startup Funding">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-category">Business</div>
+                        <h3 class="card-title">Indian Startup Raises $50 Million to Expand AI Solutions Globally</h3>
+                        <p class="card-excerpt">
+                            A Bengaluru-based startup has secured $50 million in Series C funding to scale its AI-powered business solutions across global markets.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 2 hours ago</span>
+                            <span><i class="far fa-eye"></i> 18.4k views</span>
+                        </div>
+                    </div>
+                </article>
+
+             </div></section>
+                </div>
+            </main>
+            </body>
+            </html>
+                              <%-include("footer.ejs")%>
+                            

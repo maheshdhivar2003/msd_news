@@ -1,0 +1,72 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSD News Portal - India's Trusted News Source</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+
+
+<!-- Header Section -->
+    <header>
+        <div class="container header-top">
+            <div class="logo">
+                <div class="logo-text">
+                    <a href="index.html">
+                        <div class="site-title"><%=about_company[0].company_name%></div>
+                        <div class="site-tagline">India's Most Trusted News Source</div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="header-controls">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search news...">
+                </div>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Breaking News Ticker -->
+        <div class="breaking-news">
+            <div class="container breaking-news-container">
+                <div class="breaking-label">BREAKING</div>
+                <div class="ticker">
+                    <div class="ticker-content">
+                        <span class="live-badge">LIVE</span>
+                        <strong>India's GDP grows at 7.8% in Q4, exceeds expectations</strong> • 
+                        <span>Monsoon arrives in Kerala two days ahead of schedule</span> • 
+                        <span>India wins T20 series against Australia in last-over thriller</span> • 
+                        <span>New education policy to be implemented from next academic year</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+        <nav>
+            <div class="container nav-container">
+                <ul class="main-nav" id="mainNav">
+                    <li class=""><a href="/"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="/politics"><i class="fas fa-landmark"></i> Politics</a></li>
+                    <li><a href="/sport "><i class="fas fa-futbol"></i> Sports</a></li>
+                    <li><a href="/business"><i class="fas fa-chart-line"></i> Business</a></li>
+                    <li><a href="/technology"><i class="fas fa-laptop-code"></i> Tech</a></li>
+                    <li><a href="/about"><i class="fas fa-film"></i> About Us</a></li>
+                    <li><a href="/contact"><i class="fa-solid fa-phone"></i> Contact Us</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
